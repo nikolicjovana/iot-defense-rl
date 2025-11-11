@@ -1,0 +1,142 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# PyTorch
+*.pth
+*.pt
+*.ckpt
+*.pth.tar
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Model files and checkpoints
+models/
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.pb
+*.onnx
+*.tflite
+
+# Results and outputs
+results/
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!README.md
+!docs/*.png
+!docs/*.jpg
+
+# Data files (large datasets should not be committed)
+# Uncomment if you want to ignore dataset files
+CICIOT23/
+# *.csv
+# *.parquet
+# *.feather
+
+# Logs
+logs/
+*.log
+*.out
+*.err
+
+# Training history and metrics
+training_history.json
+evaluation_metrics.json
+# Uncomment if you want to exclude all JSON files
+# *.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Preprocessor (can be regenerated, but might want to keep for consistency)
+# Uncomment if you want to ignore preprocessor
+# preprocessor.pkl
+
+# Profiling and debugging
+*.prof
+*.pstats
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Project specific
+checkpoints/
+saved_models/
+experiments/
+runs/
+wandb/
+tensorboard_logs/
+
