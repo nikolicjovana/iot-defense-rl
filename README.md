@@ -338,24 +338,6 @@ If you encounter memory issues with the full dataset:
 - Check that `models/dqn_agent_final.pth` exists
 - Specify correct model path in `evaluate.py`
 
-## Future Improvements
-
-Potential enhancements:
-1. **Advanced RL Algorithms**: Implement PPO, A3C, or Rainbow DQN
-2. **Multi-agent Systems**: Multiple agents for different attack types
-3. **Transfer Learning**: Pre-training on similar datasets
-4. **Online Learning**: Continuous learning from new traffic
-5. **Explainability**: Interpretability tools for agent decisions
-6. **Real-time Deployment**: Optimize for production deployment
-
-## Citation
-
-If you use this code or the CICIoT2023 dataset, please cite:
-
-```
-CICIoT2023 Dataset: [Add citation when available]
-```
-
 ## Git Setup
 
 This project includes a `.gitignore` file that excludes:
@@ -366,23 +348,3 @@ This project includes a `.gitignore` file that excludes:
 - IDE-specific files (`.vscode/`, `.idea/`)
 - Large dataset files (commented out - uncomment if needed)
 - Log files and temporary files
-
-**Important Notes**:
-- The CICIoT2023 dataset files are typically too large for git. The `.gitignore` includes commented-out rules for dataset files. Uncomment them if you want to exclude the dataset from version control.
-- Model checkpoints and preprocessor files are excluded but can be regenerated from training.
-- Make sure to commit the `.gitignore` file before pushing to git.
-
-## License
-
-[Specify license if applicable]
-
-## Contact
-
-[Add contact information if applicable]
-
-## Acknowledgments
-
-- CICIoT2023 dataset providers
-- OpenAI Gym/Gymnasium for RL environment framework
-- PyTorch team for deep learning framework
-

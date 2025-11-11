@@ -60,12 +60,6 @@ models/
 *.tflite
 
 # Results and outputs
-results/
-*.png
-*.jpg
-*.jpeg
-*.pdf
-*.svg
 !README.md
 !docs/*.png
 !docs/*.jpg
